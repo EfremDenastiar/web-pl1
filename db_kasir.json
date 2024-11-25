@@ -1,0 +1,24 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"db_kasir"},
+{"type":"table","name":"migrations","database":"db_kasir","data":
+[
+{"id":"5","version":"2024-11-19-235432","class":"App\\Database\\Migrations\\Pelanggan","group":"default","namespace":"App","time":"1732066555","batch":"1"}
+]
+}
+,{"type":"table","name":"tb_pelanggan","database":"db_kasir","data":
+[
+{"id_pelanggan":"1","nama_pelanggan":"Efrem","alamat_pelanggan":"Blitar","no_telp_pelanggan":"082134568781","deleted_at":null,"created_at":"2024-11-20 02:36:23","updated_at":"2024-11-20 03:39:44"},
+{"id_pelanggan":"2","nama_pelanggan":"Mella","alamat_pelanggan":"Selorejo","no_telp_pelanggan":"201201","deleted_at":null,"created_at":"2024-11-20 01:58:44","updated_at":"2024-11-20 01:58:44"},
+{"id_pelanggan":"3","nama_pelanggan":"Raffi","alamat_pelanggan":"Selorejo","no_telp_pelanggan":"0821345671212","deleted_at":null,"created_at":"2024-11-20 01:59:58","updated_at":"2024-11-20 01:59:58"},
+{"id_pelanggan":"4","nama_pelanggan":"Alfin","alamat_pelanggan":"yahaha","no_telp_pelanggan":"021932143","deleted_at":null,"created_at":"2024-11-20 02:05:07","updated_at":"2024-11-20 03:37:52"},
+{"id_pelanggan":"5","nama_pelanggan":"Yupii","alamat_pelanggan":"Ngebruk","no_telp_pelanggan":"321321321","deleted_at":null,"created_at":"2024-11-20 02:06:04","updated_at":"2024-11-20 03:57:11"},
+{"id_pelanggan":"6","nama_pelanggan":"Rafi","alamat_pelanggan":"Pucung","no_telp_pelanggan":"13219391","deleted_at":null,"created_at":"2024-11-20 03:09:45","updated_at":"2024-11-20 03:09:45"}
+]
+}
+,{"type":"table","name":"tb_produk","database":"db_kasir","data":
+[
+{"produk_id":"18","nama_produk":"Minyak","harga":"10000.00","stok":"1","gambar":"1732540771_0b64c980c27339c20fc3.jpg"}
+]
+}
+]
